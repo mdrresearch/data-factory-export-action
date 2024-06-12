@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+set -e
 
 dataFactoryDirectory=$1
 dataFactoryId=$2
