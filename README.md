@@ -1,3 +1,8 @@
+# Why this Fork/Repo
+The upstream version of azure/data-factory-export-action@1.2.0 stopped working on 10/06/2024. The error message indicated this was an issue with the Node Version. A github issue for updating the Node version for this action was openned by someone else: https://github.com/Azure/data-factory-export-action/issues/6. Since there was no sign for when this would be resolved upstream, and this github action was essential we forked this repo and fixed the issue.
+
+If the above github issue has been resolved, this repo can be removed and the upstream version used instead.
+
 # Azure Data Factory Export Action
 
 GitHub Action that exports all the Azure Data Factory resources stored in your Git repository to an ARM Template using the [Azure Data Factory utilities](https://www.npmjs.com/package/@microsoft/azure-data-factory-utilities) package.
